@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    background: royalblue;
+}
+
+main {
+    width: 570px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    color: royalblue;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}

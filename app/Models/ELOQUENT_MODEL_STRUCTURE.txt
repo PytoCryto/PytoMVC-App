@@ -1,0 +1,98 @@
+<?php
+
+namespace App\Models;
+
+use App\Models\EloquentModel;
+#use Capsule;
+#use PytoMVC\System\Database\Sluggable\SlugOptions;
+#use PytoMVC\System\Database\Traits\HasSlug;
+#use PytoMVC\System\Database\Traits\ValidatingTrait;
+#use Sofa\Eloquence\Eloquence;
+#use Sofa\Eloquence\Mappable;
+
+class {MyModel} extends EloquentModel
+{
+    //use ValidatingTrait, HasSlug, Eloquence, Mappable;
+
+    /**
+     * The attributes that will be mapped.
+     *
+     * @var array
+     */
+    //protected $maps = [];
+
+    /**
+     * Form validation rules
+     *
+     * @var array
+     */
+    //protected $rules = [
+    //    'myInputField' => 'as:My sexy field name|required'
+    //];
+
+    /**
+     * Disable Timestamps
+     *
+     * @var bool
+     */
+    //public $timestamps = false;
+    
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    //protected $table = '{table}';
+
+    /**
+     * Primary Key of the Table
+     *
+     * @var string
+     */
+    //protected $primaryKey = '{primary key}';
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    //protected $hidden = [];
+
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var array
+     */
+    //protected $appends = [];
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    //protected $fillable = [];
+
+    /**
+     * The "booting" method of the model.
+     *
+     * @return void
+     */
+    //protected static function boot()
+    //{
+    //    parent::boot();
+    //    
+    //    static::addGlobalScope(new OrderByScope('column', 'asc'));
+    //}
+
+    /**
+     * Get the options for generating the slug.
+     * 
+     * @return \PytoMVC\System\Database\Sluggable\SlugOptions
+     */
+    //public function getSlugOptions()
+    //{
+    //    return SlugOptions::create()
+    //        ->generateSlugsFrom('name')
+    //        ->saveSlugsTo('slug_name');
+    //}
+}

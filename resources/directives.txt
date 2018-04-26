@@ -1,0 +1,5 @@
+{old: input_name_here} = <?php echo old('input_name_here'); ?>
+
+{translate: key_here} = <?php echo echo trans('key_here'); ?>
+
+{route: route.name.here} = <?php echo view()->get('url') . '/' . url()->route('route.name.here'); ?>
